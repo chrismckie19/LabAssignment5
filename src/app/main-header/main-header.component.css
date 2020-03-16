@@ -1,0 +1,5 @@
+.row-one {
+    background-color: rgb(21, 207, 192);
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+}
