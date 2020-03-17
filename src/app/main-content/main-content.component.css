@@ -3,4 +3,6 @@
     grid-template-columns: 1fr 5fr 2fr;
     height: 100%
 }
-
+.pull-right{
+    float: right;
+}
