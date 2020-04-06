@@ -1,5 +1,11 @@
-.row-one {
-    background-color: rgb(21, 207, 192);
+.nav-buttons{
+    margin-right: 10px
+}
+.toolbar {
+    height: 100%;
+}
+.row-one{
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
+    height: 100%
 }

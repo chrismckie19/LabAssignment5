@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -13,5 +15,13 @@ html, body {
 
 .container-padding{
     margin: 12px;
-    border: 1px dashed #bd2626b4;
+    /* border: 1px dashed #bd2626b4; */
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.row-one, .row-two, .row-three {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2f;
+    height: 100%;
+    width: 100%;
 }
